@@ -1,0 +1,192 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.main {
+  padding: 0 8px;
+  flex: 1 0 auto;
+}
+.header {
+	position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    z-index: 101;
+    color: #54698D;
+    min-width: 990px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.45);
+}
+.header-icon-logo {
+	width: 67px;
+	height: 35px;
+	float: left;
+	margin:11px 19px 4px 26px;
+}
+.header-icon-logo img {
+	width: 100%;
+	height: 100%;
+}
+.header-nav-left {
+	height: 50px;
+	float: left;
+}
+.header-nav-right {
+	height: 50px;
+	float: right;
+	padding-right:30px; 
+}
+.header-nav-item span {
+	padding-bottom: 2.5px;
+}
+.header-nav-left .header-nav-item span:hover {
+	padding-bottom: 2.5px;
+	border-bottom: 2px solid #3583DA;
+	color: #3583DA;
+	cursor: pointer;
+}
+.header-nav-left .header-nav-item {
+	float: left;
+	line-height: 50px;
+	padding: 0 26px;
+	font-size: 14px;
+	margin-left: 2px;
+}
+.header-nav-left .header-nav-item-this span{
+	padding-bottom: 2.5px;
+	border-bottom: 2px solid #3583DA;
+	color: #3583DA;
+}
+.header-nav-right .header-nav-item {
+	float: right;
+	line-height: 50px;
+	padding: 0 24px 0;
+	font-size: 14px;
+	margin-left: 2px;
+	color: #666666;
+}
+.header-nav-updown {
+
+	position: relative;
+	color: rgba(255,255,255,.7);
+}
+.header-nav-updown i {
+	font-size: 18px;
+	padding-left: 10px;
+}
+.hide-nav-list-hidden {
+	position: absolute;
+	left: 30px;
+	top: 50px;
+	margin-top: 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 78px;
+	height: 100px;
+	visibility: hidden;
+	opacity: 0;
+}
+.hide-nav-list-show {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	margin-top: 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 78px;
+	height: 100px;
+	opacity: 1;
+	visibility: visible;
+	color: #000;
+	transition: opacity 1s;
+}
+.hide-nav-list-item {
+	width: 78px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.hide-nav-list-item:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	background: #ccc;
+	cursor: pointer;
+}
+.login {
+	padding-right: 20px;
+}
+.sign {
+	padding-left: 20px;
+}
+.login:hover {
+	color: #3583DA;
+	cursor: pointer;
+}
+.sign:hover {
+	color: #3583DA;
+	cursor: pointer;
+}
+
+
+
+.sildbar {
+	width: 200px;
+    display: block;
+    position: fixed;
+    top: 50px;
+    bottom: 0px;
+    z-index: 102;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #3583DA;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.27);
+    color: #fff;
+    font-size: 14px;
+}
+.sildbar-container {
+	padding-top: 20px;
+}
+.sildbar-container-item-title {
+	height: 50px;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    padding-left: 24px;
+}
+.sildbar-container-item-title i {
+	width:20px;
+	font-size: 16px;
+	padding-right: 10px;
+}
+.sildbar-container-second-item {
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    text-align: center;
+}
+.sildbar-container-second-show {
+	display: block;
+}
+.sildbar-container-second-show {
+	display: hidden;
+}
+
+.sildbar-container-second-this {
+	background: #2661AE;
+}
