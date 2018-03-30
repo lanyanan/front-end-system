@@ -48,7 +48,6 @@ function SildBar({ secondChildren,showIndex ,dispatch}) {
 }
 
 function mapStateToProps(state) {
-  console.log(state.example)
   const { secondChildren,showIndex } = state.example;
   return {
     secondChildren,
